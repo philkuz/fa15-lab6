@@ -50,7 +50,7 @@ In this lab, you will extend the base app you saw in lecture.
 
    ```ruby
    def pokemon_params
-     params.require(:pokemon).permit(:name, :description, :level, :user_id)
+      params.require(:pokemon).permit(:name, :description, :level, :user_id)
    end
    ```
 
