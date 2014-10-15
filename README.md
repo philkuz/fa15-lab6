@@ -5,6 +5,8 @@ In this lab, you will extend the base app you saw in lecture. It looks long, but
 can be finished in under 10 lines of code! Ask plenty of questions during class to the TAs and on
 Piazza.
 
+Start with ```git clone https://github.com/rails-decal/lab6.git```
+
 1. Recreate the steps we saw in lecture. For reference, the steps
    we went through in lecture are located at https://github.com/rails-decal/lecture6
 
