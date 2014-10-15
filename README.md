@@ -51,3 +51,4 @@ In this lab, you will extend the base app you saw in lecture.
    Now you can change the owners of Pokemon.
 
 Congrats, you are done with the lab!
+[Submit your written answers to 3 and 4 here](http://goo.gl/forms/eFUdOzDJwF) to receive the check-in code for today.
