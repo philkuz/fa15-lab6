@@ -32,8 +32,8 @@ Piazza.
    [After you migrate, Rails should make your schema should look exactly like the one here.](https://gist.github.com/SamLau95/cfa73a531fc3c14c7151) ***Do not modify ```schema.rb```.***
 
 4. Add an ```edit.html.erb``` page that allows you to edit all the attributes of a Pokemon, and add the
-   relevant ```edit``` action to the ```pokemons_controller.rb``` that initializes @pokemon to the
-   pokemon specified in params[:id]. Since we already have the simple_form gem installed the form
+   relevant ```edit``` action to the ```pokemons_controller.rb``` that initializes ```@pokemon``` to the
+   pokemon specified in ```params[:id]```. Since we already have the ```simple_form``` gem installed the form
    should be very simple, the form should basically look like the
    [first example on their readme](https://github.com/plataformatec/simple_form#usage). The form
    itself can be done in 7 lines of code total.
