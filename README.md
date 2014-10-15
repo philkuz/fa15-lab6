@@ -45,8 +45,16 @@ In this lab, you will extend the base app you saw in lecture.
    Discuss with your neighbors. What is a possible alternative?
 
 5. Now we need the ```update``` action so the form actually does something. Write this method
-   in the ```pokemons_controller.rb``` that redirects to the pokemons_path once it's done.
-   You should be able to do it in three lines of code since we don't have validations on Pokemon!
+   in the ```pokemons_controller.rb``` that redirects to the pokemons_path once it's done. Be sure to include and use
+   this method at the bottom of the controller so that the params get sanitized before calling ```@pokemon.update(...)```:
+
+   ```ruby
+   def pokemon_params
+     params.require(:pokemon).permit(:name, :description, :level, :user_id)
+   end
+   ```
+
+   The ```update``` action should be written in three lines of code since we don't have validations on Pokemon!
 
    Now you can change the owners of Pokemon.
 
