@@ -39,7 +39,7 @@ Piazza.
    itself can be done in 7 lines of code total.
 
    Add links to edit in the pokemons index page. Every pokemon should have a link to its edit
-   page, so place it at the end of the ```h4``` tag using
+   page, so place it right before the ```</h4>``` tag using
    ```<%= link_to 'Edit', edit_pokemon_path(pokemon) %>```. This is the only thing you should add to
    the users ```index.html.erb```.
    
