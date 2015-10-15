@@ -63,4 +63,4 @@ Start with ```git clone https://github.com/rails-decal/lab6.git```
    Now you can change the owners of Pokemon.
 
 Congrats, you are done with the lab!
-[Submit your written answers to 3 and 4 here](http://goo.gl/forms/eFUdOzDJwF) to receive the check-in code for today.
+[Submit your written answers to 3 and 4 here](http://goo.gl/forms/5bW7s6FUl5) to receive the check-in code for today.
