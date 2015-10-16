@@ -31,7 +31,7 @@ Start with `git clone https://github.com/rails-decal/fa15-lab6`
    [here][indexes]). Generate a new migration to add an index to the `:user_id`
    column of pokemons, and discuss the new runtime of rendering the users index
    action with your neighbor, assuming adding an index allows queries using that
-   index to run in O(1) time.
+   index to run in O(log N) time.
 
    [indexes]: http://rakeroutes.com/blog/increase-rails-performance-with-database-indexes/
 
